@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE5F6531D418A510011813D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6521D418A510011813D /* AppDelegate.swift */; };
+		2BE5F6551D418A510011813D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6541D418A510011813D /* ViewController.swift */; };
+		2BE5F6581D418A510011813D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5F6561D418A510011813D /* Main.storyboard */; };
+		2BE5F65A1D418A510011813D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5F6591D418A510011813D /* Assets.xcassets */; };
+		2BE5F65D1D418A510011813D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5F65B1D418A510011813D /* LaunchScreen.storyboard */; };
+		2BE5F6681D418A510011813D /* MagicConchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6671D418A510011813D /* MagicConchAppTests.swift */; };
+		2BE5F6731D418A510011813D /* MagicConchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6721D418A510011813D /* MagicConchAppUITests.swift */; };
+		2BE5F6811D4190CE0011813D /* OpenScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6801D4190CE0011813D /* OpenScreenViewController.swift */; };
+		2BE5F6831D4190EC0011813D /* ConchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5F6821D4190EC0011813D /* ConchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE5F6641D418A510011813D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE5F6471D418A510011813D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE5F64E1D418A510011813D;
+			remoteInfo = MagicConchApp;
+		};
+		2BE5F66F1D418A510011813D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE5F6471D418A510011813D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE5F64E1D418A510011813D;
+			remoteInfo = MagicConchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE5F64F1D418A510011813D /* MagicConchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicConchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE5F6521D418A510011813D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BE5F6541D418A510011813D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BE5F6571D418A510011813D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BE5F6591D418A510011813D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE5F65C1D418A510011813D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE5F65E1D418A510011813D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE5F6631D418A510011813D /* MagicConchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicConchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE5F6671D418A510011813D /* MagicConchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicConchAppTests.swift; sourceTree = "<group>"; };
+		2BE5F6691D418A510011813D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE5F66E1D418A510011813D /* MagicConchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicConchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE5F6721D418A510011813D /* MagicConchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicConchAppUITests.swift; sourceTree = "<group>"; };
+		2BE5F6741D418A510011813D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE5F6801D4190CE0011813D /* OpenScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenScreenViewController.swift; sourceTree = "<group>"; };
+		2BE5F6821D4190EC0011813D /* ConchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE5F64C1D418A510011813D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F6601D418A510011813D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F66B1D418A510011813D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE5F6461D418A510011813D = {
+			isa = PBXGroup;
+			children = (
+				2BE5F6511D418A510011813D /* MagicConchApp */,
+				2BE5F6661D418A510011813D /* MagicConchAppTests */,
+				2BE5F6711D418A510011813D /* MagicConchAppUITests */,
+				2BE5F6501D418A510011813D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE5F6501D418A510011813D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE5F64F1D418A510011813D /* MagicConchApp.app */,
+				2BE5F6631D418A510011813D /* MagicConchAppTests.xctest */,
+				2BE5F66E1D418A510011813D /* MagicConchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE5F6511D418A510011813D /* MagicConchApp */ = {
+			isa = PBXGroup;
+			children = (
+				2BE5F6521D418A510011813D /* AppDelegate.swift */,
+				2BE5F6541D418A510011813D /* ViewController.swift */,
+				2BE5F6561D418A510011813D /* Main.storyboard */,
+				2BE5F6801D4190CE0011813D /* OpenScreenViewController.swift */,
+				2BE5F6821D4190EC0011813D /* ConchViewController.swift */,
+				2BE5F6591D418A510011813D /* Assets.xcassets */,
+				2BE5F65B1D418A510011813D /* LaunchScreen.storyboard */,
+				2BE5F65E1D418A510011813D /* Info.plist */,
+			);
+			path = MagicConchApp;
+			sourceTree = "<group>";
+		};
+		2BE5F6661D418A510011813D /* MagicConchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE5F6671D418A510011813D /* MagicConchAppTests.swift */,
+				2BE5F6691D418A510011813D /* Info.plist */,
+			);
+			path = MagicConchAppTests;
+			sourceTree = "<group>";
+		};
+		2BE5F6711D418A510011813D /* MagicConchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE5F6721D418A510011813D /* MagicConchAppUITests.swift */,
+				2BE5F6741D418A510011813D /* Info.plist */,
+			);
+			path = MagicConchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE5F64E1D418A510011813D /* MagicConchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE5F6771D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchApp" */;
+			buildPhases = (
+				2BE5F64B1D418A510011813D /* Sources */,
+				2BE5F64C1D418A510011813D /* Frameworks */,
+				2BE5F64D1D418A510011813D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicConchApp;
+			productName = MagicConchApp;
+			productReference = 2BE5F64F1D418A510011813D /* MagicConchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE5F6621D418A510011813D /* MagicConchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE5F67A1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppTests" */;
+			buildPhases = (
+				2BE5F65F1D418A510011813D /* Sources */,
+				2BE5F6601D418A510011813D /* Frameworks */,
+				2BE5F6611D418A510011813D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE5F6651D418A510011813D /* PBXTargetDependency */,
+			);
+			name = MagicConchAppTests;
+			productName = MagicConchAppTests;
+			productReference = 2BE5F6631D418A510011813D /* MagicConchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BE5F66D1D418A510011813D /* MagicConchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE5F67D1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppUITests" */;
+			buildPhases = (
+				2BE5F66A1D418A510011813D /* Sources */,
+				2BE5F66B1D418A510011813D /* Frameworks */,
+				2BE5F66C1D418A510011813D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE5F6701D418A510011813D /* PBXTargetDependency */,
+			);
+			name = MagicConchAppUITests;
+			productName = MagicConchAppUITests;
+			productReference = 2BE5F66E1D418A510011813D /* MagicConchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE5F6471D418A510011813D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Edward;
+				TargetAttributes = {
+					2BE5F64E1D418A510011813D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2BE5F6621D418A510011813D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BE5F64E1D418A510011813D;
+					};
+					2BE5F66D1D418A510011813D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2BE5F64E1D418A510011813D;
+					};
+				};
+			};
+			buildConfigurationList = 2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE5F6461D418A510011813D;
+			productRefGroup = 2BE5F6501D418A510011813D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE5F64E1D418A510011813D /* MagicConchApp */,
+				2BE5F6621D418A510011813D /* MagicConchAppTests */,
+				2BE5F66D1D418A510011813D /* MagicConchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE5F64D1D418A510011813D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5F65D1D418A510011813D /* LaunchScreen.storyboard in Resources */,
+				2BE5F65A1D418A510011813D /* Assets.xcassets in Resources */,
+				2BE5F6581D418A510011813D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F6611D418A510011813D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F66C1D418A510011813D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE5F64B1D418A510011813D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5F6811D4190CE0011813D /* OpenScreenViewController.swift in Sources */,
+				2BE5F6551D418A510011813D /* ViewController.swift in Sources */,
+				2BE5F6831D4190EC0011813D /* ConchViewController.swift in Sources */,
+				2BE5F6531D418A510011813D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F65F1D418A510011813D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5F6681D418A510011813D /* MagicConchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5F66A1D418A510011813D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5F6731D418A510011813D /* MagicConchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE5F6651D418A510011813D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE5F64E1D418A510011813D /* MagicConchApp */;
+			targetProxy = 2BE5F6641D418A510011813D /* PBXContainerItemProxy */;
+		};
+		2BE5F6701D418A510011813D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE5F64E1D418A510011813D /* MagicConchApp */;
+			targetProxy = 2BE5F66F1D418A510011813D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE5F6561D418A510011813D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE5F6571D418A510011813D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BE5F65B1D418A510011813D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE5F65C1D418A510011813D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE5F6751D418A510011813D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE5F6761D418A510011813D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE5F6781D418A510011813D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicConchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BE5F6791D418A510011813D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicConchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BE5F67B1D418A510011813D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicConchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicConchApp.app/MagicConchApp";
+			};
+			name = Debug;
+		};
+		2BE5F67C1D418A510011813D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicConchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicConchApp.app/MagicConchApp";
+			};
+			name = Release;
+		};
+		2BE5F67E1D418A510011813D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicConchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicConchApp;
+			};
+			name = Debug;
+		};
+		2BE5F67F1D418A510011813D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicConchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicConchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE5F6751D418A510011813D /* Debug */,
+				2BE5F6761D418A510011813D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE5F6771D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE5F6781D418A510011813D /* Debug */,
+				2BE5F6791D418A510011813D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BE5F67A1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE5F67B1D418A510011813D /* Debug */,
+				2BE5F67C1D418A510011813D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BE5F67D1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE5F67E1D418A510011813D /* Debug */,
+				2BE5F67F1D418A510011813D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE5F6471D418A510011813D /* Project object */;
+}
