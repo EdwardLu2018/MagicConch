@@ -134,6 +134,9 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" highlightedImage="conch-1" translatesAutoresizingMaskIntoConstraints="NO" id="7FD-et-I8R">
+                                <rect key="frame" x="82" y="312" width="250" height="260"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20147143607935508" green="0.79542293848167533" blue="0.73266721136986435" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
