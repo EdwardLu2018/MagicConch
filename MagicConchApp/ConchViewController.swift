@@ -22,7 +22,7 @@ class ConchViewController: UIViewController {
     
     var answerToWhereArray : [String] = ["Bikini Bottom", "Nowhere", "Not A Single Clue.", "I Cannot Answer This In English.", "Try Asking Again.", "Bush did 9/11.", "What A Stupid Question.", "HAHAHAHA!", "I'm In De Nile.", "I Cannot Answer This.", "Why Don't You Ask A Magic Conch?", "Why Don't You Ask A Magic Conch?", "Try Asking Again.", "Right Here", "In your neighborhood", "Where The Cherry Blossom Reaches The Moon"]
     
-    var answerToWhatArray : [String] = ["I did", "I Don't Know", "It Was My Ex", "I Cannot Answer This One.", "Why Don't You Ask A Magic Conch?", "I'm Currently In Rehab.", "Try Asking Again.", "I cannot tell", "Small Cats", "Worst. Question. Ever", "Don't You Have A Job?", "There Is No Answer", "Just Don't Try", "Red", "The Answer To Your Question is......", "What About Love?"]
+    var answerToWhatArray : [String] = ["I did", "I Don't Know", "It Was My Ex", "I Cannot Answer This One.", "Why Don't You Ask A Magic Conch?", "I'm Currently In Rehab.", "Try Asking Again.", "I cannot tell", "Small Cats", "Worst. Question. Ever", "Get A Life, Stop Wasting Your Time", "There Is No Answer", "Just Don't Try", "Red", "The Answer To Your Question is......", "What About Love?"]
     
     var answerToHowArray : [String] = ["Because", "Aliens", "I Don't Know", "What?", "I Cannot Answer This One.", "Why Don't You Ask A Magic Conch?", "Bush did 9/11.", "Ask Again Later.", "I Cannot Answer This One.", "I Don't Know, Go Away.", "Take Three Puppies And Eat them", "Not A Fan Of This One.", "Ask Your Mother.", "Ask Your Father.", "Try To Find Love", "How Are You?"]
     
