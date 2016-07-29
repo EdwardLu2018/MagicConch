@@ -34,7 +34,7 @@ class OpenScreenViewController: UIViewController {
         questionTextField.text = ""
         
         let alert = UIAlertController(title: "ALL HAIL THE MAGIC CONCH!!", message: "Welcome to our club, welcome to our club, welcome, \(nameTextField.text!), welcome \(nameTextField.text!), welcome to our club!", preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "\(nameTextField.text!) gives into the conch's demands", style: UIAlertActionStyle.Default, handler: nil))
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
     }
 }

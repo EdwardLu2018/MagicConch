@@ -35,8 +35,7 @@ class ConchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         questionText.text = questionAsked
         
         if questionAsked.rangeOfString("Why") != nil || questionAsked.rangeOfString("why") != nil {
@@ -75,10 +74,8 @@ class ConchViewController: UIViewController {
         }
             
         else {
-            answerText.text = "Ask A REAL Question, You Stupid Idiot."
+            answerText.text = "Ask A REAL Question."
         }
-        
-
     }
 }
 

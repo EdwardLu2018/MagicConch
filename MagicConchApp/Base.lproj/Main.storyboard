@@ -93,10 +93,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Club_SpongeBob_04" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-eh-n30">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="778970_small_checkboard" translatesAutoresizingMaskIntoConstraints="NO" id="Wk3-PO-8jp">
-                                <rect key="frame" x="0.0" y="178" width="414" height="163"/>
+                                <rect key="frame" x="0.0" y="326" width="414" height="410"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5E-eo-2Zm">
                                 <rect key="frame" x="8" y="141" width="399" height="21"/>
@@ -105,34 +102,40 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvM-3j-Obr">
-                                <rect key="frame" x="0.0" y="101" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="105" width="414" height="44"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your question was:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhV-H8-Otz">
-                                <rect key="frame" x="117" y="72" width="181" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhV-H8-Otz">
+                                <rect key="frame" x="117" y="84" width="181" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your question was:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-BoldItalic"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Magic Conch Suggests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SK-tj-60n">
+                                <rect key="frame" x="65" y="170" width="285" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" highlightedImage="conch-1" translatesAutoresizingMaskIntoConstraints="NO" id="7FD-et-I8R">
-                                <rect key="frame" x="82" y="281" width="250" height="260"/>
+                                <rect key="frame" x="82" y="355" width="250" height="260"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWa-I8-loF">
-                                <rect key="frame" x="0.0" y="233" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="208" width="414" height="40"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Magic Conch Suggests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SK-tj-60n">
-                                <rect key="frame" x="65" y="153" width="285" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20147143607935508" green="0.79542293848167533" blue="0.73266721136986435" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -165,7 +168,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="778970_small_checkboard" width="150" height="150"/>
         <image name="Button_Icon_Yellow.svg" width="200" height="200"/>
         <image name="Club_SpongeBob_04" width="1152" height="864"/>
         <image name="conch-1" width="225" height="225"/>
