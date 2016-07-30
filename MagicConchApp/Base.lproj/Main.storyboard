@@ -92,6 +92,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Club_SpongeBob_04" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-eh-n30">
+                                <rect key="frame" x="0.0" y="289" width="414" height="447"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5E-eo-2Zm">
                                 <rect key="frame" x="8" y="141" width="399" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
@@ -131,9 +134,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Club_SpongeBob_04" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-eh-n30">
-                                <rect key="frame" x="0.0" y="289" width="414" height="447"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20147143607935508" green="0.79542293848167533" blue="0.73266721136986435" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
