@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					2BE5F64E1D418A510011813D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LYJSRZED64;
 					};
 					2BE5F6621D418A510011813D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -210,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConchApp" */;
+			buildConfigurationList = 2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -409,10 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MagicConchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MagicConchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EdwardLu.MagicConchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -476,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConchApp" */ = {
+		2BE5F64A1D418A510011813D /* Build configuration list for PBXProject "MagicConch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BE5F6751D418A510011813D /* Debug */,
@@ -492,6 +499,7 @@
 				2BE5F6791D418A510011813D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BE5F67A1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				2BE5F67C1D418A510011813D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BE5F67D1D418A510011813D /* Build configuration list for PBXNativeTarget "MagicConchAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				2BE5F67F1D418A510011813D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2BE5F64E1D418A510011813D"
                BuildableName = "MagicConchApp.app"
                BlueprintName = "MagicConchApp"
-               ReferencedContainer = "container:MagicConchApp.xcodeproj">
+               ReferencedContainer = "container:MagicConch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "2BE5F6621D418A510011813D"
                BuildableName = "MagicConchAppTests.xctest"
                BlueprintName = "MagicConchAppTests"
-               ReferencedContainer = "container:MagicConchApp.xcodeproj">
+               ReferencedContainer = "container:MagicConch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "2BE5F66D1D418A510011813D"
                BuildableName = "MagicConchAppUITests.xctest"
                BlueprintName = "MagicConchAppUITests"
-               ReferencedContainer = "container:MagicConchApp.xcodeproj">
+               ReferencedContainer = "container:MagicConch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "2BE5F64E1D418A510011813D"
             BuildableName = "MagicConchApp.app"
             BlueprintName = "MagicConchApp"
-            ReferencedContainer = "container:MagicConchApp.xcodeproj">
+            ReferencedContainer = "container:MagicConch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "2BE5F64E1D418A510011813D"
             BuildableName = "MagicConchApp.app"
             BlueprintName = "MagicConchApp"
-            ReferencedContainer = "container:MagicConchApp.xcodeproj">
+            ReferencedContainer = "container:MagicConch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "2BE5F64E1D418A510011813D"
             BuildableName = "MagicConchApp.app"
             BlueprintName = "MagicConchApp"
-            ReferencedContainer = "container:MagicConchApp.xcodeproj">
+            ReferencedContainer = "container:MagicConch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

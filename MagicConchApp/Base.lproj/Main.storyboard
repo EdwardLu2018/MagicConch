@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Open Screen View Controller-->
@@ -17,20 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="6SJ-Xx-BG7">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waterWallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="6SJ-Xx-BG7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <gestureRecognizers/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Magic Conch Shell App " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtl-tw-18C">
-                                <rect key="frame" x="10" y="93" width="394" height="65"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="The Magic Conch Shell App " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtl-tw-18C">
+                                <rect key="frame" x="10" y="99" width="397" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="397" id="UL4-rx-bno"/>
+                                    <constraint firstAttribute="height" constant="65" id="qdM-46-gwS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="27"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAE-cV-uTt">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAE-cV-uTt">
                                 <rect key="frame" x="131" y="334" width="150" height="150"/>
-                                <state key="normal" image="Button_Icon_Yellow.svg">
+                                <state key="normal" image="Button.svg">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -38,36 +43,50 @@
                                     <segue destination="U52-DT-f9d" kind="show" id="tVL-XW-lc4"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="The Conch Knows ALL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97U-5k-GW0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="The Conch Knows ALL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97U-5k-GW0">
                                 <rect key="frame" x="82" y="215" width="250" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TYPE IN A QUESTION:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ew-2u-WMn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TYPE IN A QUESTION:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ew-2u-WMn">
                                 <rect key="frame" x="121" y="177" width="172" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap the yellow sponge button below to ask the conch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOh-7F-GC6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tap the yellow sponge button below to ask" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOh-7F-GC6">
                                 <rect key="frame" x="0.0" y="289" width="407" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My name is " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF7-2B-lHC">
-                                <rect key="frame" x="94" y="79" width="89" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY NAME IS: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF7-2B-lHC">
+                                <rect key="frame" x="37" y="79" width="106" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What Is Your Name?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LZC-U8-aGs">
-                                <rect key="frame" x="179" y="73" width="153" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="144" y="73" width="202" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Please enter your name above before continuing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-kB-tV3">
+                                <rect key="frame" x="47" y="259" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kts-kB-tV3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8X0-UD-1sj"/>
+                            <constraint firstItem="Qtl-tw-18C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cey-pe-fgM"/>
+                            <constraint firstItem="XOh-7F-GC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ElS-FI-jPZ"/>
+                            <constraint firstItem="97U-5k-GW0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OGA-le-lYO"/>
+                            <constraint firstItem="DAE-cV-uTt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFW-Jm-Zoe"/>
+                            <constraint firstItem="3ew-2u-WMn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uPI-2X-wAa"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZfD-Hk-Cer"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
@@ -92,54 +111,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Club_SpongeBob_04" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-eh-n30">
-                                <rect key="frame" x="0.0" y="289" width="414" height="447"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ClubSpongeBob" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-eh-n30">
+                                <rect key="frame" x="0.0" y="250" width="414" height="486"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="5ek-cx-NND"/>
+                                    <constraint firstAttribute="height" constant="486" id="9TU-GX-0GN"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5E-eo-2Zm">
-                                <rect key="frame" x="8" y="141" width="399" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWa-I8-loF">
+                                <rect key="frame" x="0.0" y="202" width="414" height="40"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvM-3j-Obr">
-                                <rect key="frame" x="0.0" y="105" width="414" height="44"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhV-H8-Otz">
-                                <rect key="frame" x="117" y="84" width="181" height="21"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Your question was:">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="20" name="HelveticaNeue-BoldItalic"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Magic Conch Suggests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SK-tj-60n">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="The Magic Conch Suggests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SK-tj-60n">
                                 <rect key="frame" x="65" y="170" width="285" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" highlightedImage="conch-1" translatesAutoresizingMaskIntoConstraints="NO" id="7FD-et-I8R">
-                                <rect key="frame" x="82" y="355" width="250" height="260"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWa-I8-loF">
-                                <rect key="frame" x="0.0" y="208" width="414" height="40"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhV-H8-Otz">
+                                <rect key="frame" x="0.0" y="84" width="414" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your question was:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-BoldItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nothing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvM-3j-Obr">
+                                <rect key="frame" x="0.0" y="105" width="414" height="44"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="--------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5E-eo-2Zm">
+                                <rect key="frame" x="8" y="141" width="399" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Conch" highlightedImage="conch-1" translatesAutoresizingMaskIntoConstraints="NO" id="7FD-et-I8R">
+                                <rect key="frame" x="82" y="355" width="250" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="UdP-6d-v6O"/>
+                                    <constraint firstAttribute="height" constant="260" id="nNI-hC-fl4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20147143607935508" green="0.79542293848167533" blue="0.73266721136986435" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="U5E-eo-2Zm" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="8kZ-e7-cbB"/>
+                            <constraint firstItem="4SK-tj-60n" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="PBs-ko-716"/>
+                            <constraint firstItem="7FD-et-I8R" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="Vdh-cB-dFw"/>
+                            <constraint firstItem="EWa-I8-loF" firstAttribute="leading" secondItem="rPn-zk-gdD" secondAttribute="leadingMargin" constant="-20" id="g0t-rx-GKY"/>
+                            <constraint firstItem="MhV-H8-Otz" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="gSC-Gk-H1b"/>
+                            <constraint firstItem="ddn-eh-n30" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="jYe-it-PXY"/>
+                            <constraint firstItem="PvM-3j-Obr" firstAttribute="centerX" secondItem="rPn-zk-gdD" secondAttribute="centerX" id="pJC-0z-jZ6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EWa-I8-loF" secondAttribute="trailing" constant="-20" id="zGg-oz-evI"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="answerText" destination="EWa-I8-loF" id="rkg-p6-zz1"/>
+                        <outlet property="nameText" destination="MhV-H8-Otz" id="DfU-VP-42T"/>
                         <outlet property="questionText" destination="PvM-3j-Obr" id="FYR-jW-9uP"/>
                     </connections>
                 </viewController>
@@ -168,10 +207,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Button_Icon_Yellow.svg" width="200" height="200"/>
-        <image name="Club_SpongeBob_04" width="1152" height="864"/>
+        <image name="Button.svg" width="200" height="200"/>
+        <image name="ClubSpongeBob" width="1152" height="864"/>
+        <image name="Conch" width="170" height="170"/>
         <image name="conch-1" width="225" height="225"/>
-        <image name="unnamed" width="170" height="170"/>
-        <image name="water wallpaper" width="420" height="420"/>
+        <image name="waterWallpaper" width="420" height="420"/>
     </resources>
 </document>

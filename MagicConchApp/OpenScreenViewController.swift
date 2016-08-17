@@ -17,7 +17,7 @@ class OpenScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -25,17 +25,20 @@ class OpenScreenViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         view.endEditing(true)
         let dvc = segue.destinationViewController as! ConchViewController
-
+        
         dvc.questionAsked = questionTextField.text!
+        dvc.name = nameTextField.text!
+        
     }
-
+    
     @IBAction func yelloButtonIsPressed(sender: AnyObject) {
-
+        
         questionTextField.text = ""
         
         let alert = UIAlertController(title: "ALL HAIL THE MAGIC CONCH!!", message: "Welcome to our club, welcome to our club, welcome, \(nameTextField.text!), welcome \(nameTextField.text!), welcome to our club!", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
+        
     }
 }
 

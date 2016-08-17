@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MagicConchApp.xcodeproj">
+      location = "self:/Users/Edward/Desktop/CTD 2016 (Swift)/ConchApp-dev/MagicConch.xcodeproj">
    </FileRef>
 </Workspace>

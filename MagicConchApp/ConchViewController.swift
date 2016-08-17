@@ -9,12 +9,16 @@
 import UIKit
 
 class ConchViewController: UIViewController {
-
+    
     @IBOutlet weak var answerText: UILabel!
     
     @IBOutlet weak var questionText: UILabel!
     
+    @IBOutlet weak var nameText: UILabel!
+    
     var questionAsked = ""
+    
+    var name = ""
     
     var answerToWhyArray : [String] = ["Because.", "I Don't Know", "Who Cares?", "The Avengers Was Overrated.", "Not A Single Clue.", "Why Don't You Ask A Magic Conch?", "I Cannot Answer This In English.", "Try Asking Again.", "Not A Fan Of This One.", "Because Men Are All Pigs", "Ask Your Father.", "Bush did 9/11.", "Because Women Are Evil", "Ask Again Later.", "I Cannot Answer This One.", "I Don't Know, Go Away."]
     
@@ -35,25 +39,27 @@ class ConchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        nameText.text = "\(name)'s question was: "
+        
         questionText.text = questionAsked
         
         if questionAsked.rangeOfString("Why") != nil || questionAsked.rangeOfString("why") != nil {
             print("exists")
             answerText.text = answerToWhyArray [answer]
         }
-        
+            
         else if questionAsked.rangeOfString("Who") != nil || questionAsked.rangeOfString("who") != nil{
             print("exists")
             answerText.text = answerToWhoArray [answer]
         }
-        
+            
         else if questionAsked.rangeOfString("Where") != nil || questionAsked.rangeOfString("where") != nil{
             print("exists")
             answerText.text = answerToWhereArray [answer]
         }
             
-         else if questionAsked.rangeOfString("What") != nil || questionAsked.rangeOfString("what") != nil{
+        else if questionAsked.rangeOfString("What") != nil || questionAsked.rangeOfString("what") != nil{
             print("exists")
             answerText.text = answerToWhatArray [answer]
         }
@@ -74,7 +80,7 @@ class ConchViewController: UIViewController {
         }
             
         else {
-            answerText.text = "Ask A REAL Question."
+            answerText.text = "Ask A REAL Question, You Stupid Idiot."
         }
     }
 }
